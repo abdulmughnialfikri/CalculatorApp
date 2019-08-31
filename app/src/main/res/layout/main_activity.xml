@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="100sp"
+        android:textAlignment="viewEnd" />
+    <TextView
+        android:id="@+id/tvInput"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textColor="@color/colorPrimarySoft"
+        android:textSize="100sp"
+        android:textAlignment="viewEnd" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSeven"
+            style="@style/ButtonStyleNumber"
+            android:text="7"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnEight"
+            style="@style/ButtonStyleNumber"
+            android:text="8"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnNine"
+            style="@style/ButtonStyleNumber"
+            android:text="9"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnMultiplication"
+            style="@style/ButtonStyleSymbol"
+            android:text="x"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnFour"
+            style="@style/ButtonStyleNumber"
+            android:text="4"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnFive"
+            style="@style/ButtonStyleNumber"
+            android:text="5"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnSix"
+            style="@style/ButtonStyleNumber"
+            android:text="6"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnDivide"
+            style="@style/ButtonStyleSymbol"
+            android:text="/"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnOne"
+            style="@style/ButtonStyleNumber"
+            android:text="1"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnTwo"
+            style="@style/ButtonStyleNumber"
+            android:text="2"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnThree"
+            style="@style/ButtonStyleNumber"
+            android:text="3"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnMinus"
+            style="@style/ButtonStyleSymbol"
+            android:text="-"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDel"
+            style="@style/ButtonStyleSymbol"
+            android:text="del"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnZero"
+            style="@style/ButtonStyleNumber"
+            android:text="0"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnEqual"
+            style="@style/ButtonStyleSymbol"
+            android:text="="
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+        <Button
+            android:id="@+id/btnPlus"
+            style="@style/ButtonStyleSymbol"
+            android:text="+"
+            android:layout_width="@dimen/button_size_w"
+            android:layout_height="@dimen/button_size_h"
+            android:layout_margin="@dimen/margin_val" />
+    </LinearLayout>
+</LinearLayout>
